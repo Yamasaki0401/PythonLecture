@@ -9,3 +9,12 @@ print("{}{}".format(hello, world))
 
 name = "Emily"
 print("Hey,{}!! How are you doing?".format(name))
+
+balance = 100
+print("balance: {}".format(balance))
+
+# fstring　.formatより処理がはやい(python3.5以上）
+print(f"{hello} {world}")
+
+print(f"Hey,{name}!! How are you doing?")
+print(f"balance: {balance}")
